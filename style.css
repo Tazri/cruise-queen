@@ -39,6 +39,7 @@ nav ul li a:hover, a.active{
     border-radius: 5px;
 }
 .main-content{
+    min-height: 100vh ;
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 70px;
@@ -134,3 +135,53 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+
+/* Start Design Thanks-message section */
+
+.thanks-message{
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 65%;
+    margin-left: 180px;
+}
+
+.thanks-message h3{
+    color: white;
+    background-color: #e33741;
+    padding: 13px 10px;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+.thanks-message p{
+    text-align: justify;
+    text-align-last: center;
+    margin: 30px 0px;
+}
+
+.thanks-message ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 20px 0px;
+    padding: 0px 40px;
+}
+
+.thanks-message ul li{
+    display: inline-block;
+}
+
+.thanks-message ul li i{
+    font-size: 30px;
+    color:  #e33741;
+    transition: all 0.3s;
+}
+
+.thanks-message ul li i:hover{
+    transform: translate(0,-5px);
+}
+/* End Design Thanks-message section */

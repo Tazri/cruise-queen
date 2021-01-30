@@ -1,0 +1,32 @@
+<h1>Programming Hero Assignment 4</h1>
+
+<p>This assignment for programming hero.This assignment name is Cruise Quieen.This for practicing javascript on dom.</p>
+
+<h2>Assignment Task</h2>
+
+<h3>Add interactive on plus and minus button</h3>
+<p>Add four plus and minus button. If click on this button then, increae or decrease number of ticket</p>
+<ul>
+    <li>Add two plus button. One for first class and another for economy.</li>
+    <li>Add two minus button. One for first class and another for economy.</li>
+</ul>
+
+<h3>Create function for plus and minus buttons</h3>
+<p>Create a function for plus and minsu botton.</p>
+<ul>
+    <li>If click on plus button then, increment ticket number.</li>
+    <li>If click on minus button then, decrement ticket number</li>
+    <li>When click on plus and minus button at time update total price.</li>
+</ul>
+
+<h3>Create function for update price</h3>
+<p>This function update total,subtotal and vat price</p>
+
+<h2>Optional task for bonus mark.</h2>
+<h3>Add event listener on Book Now button.</h3>
+<p>When click on Book Now button then booking-form div display none and show Thanks message.</p>
+<ul>
+    <li>Create new div for thanks message and it hide from user.</li>
+    <li>When click on Book Now button then, hide booking-form div.</li>
+    <li>When click on Book Now button then, show thanks message.</li>
+</ul>

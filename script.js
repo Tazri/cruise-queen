@@ -22,7 +22,7 @@ function updateTotal(){
     const totalEconomyTicketPrice = getTicketNumber('economy')*100;
     const totalTicketPrice = totalEconomyTicketPrice + totalFirstClassTicketPrice;
     const vat = Math.round((totalTicketPrice/100)*10);
-    
+
     // update total
     document.getElementById('subtotal').innerText = '$'+totalTicketPrice;
     document.getElementById('vat').innerText = '$'+vat;
@@ -38,3 +38,8 @@ function getTicketNumber(ticketType){
     }
     return 0;
 }
+
+document.getElementById('book-now-btn').addEventListener('click',()=>{
+    document.getElementById('form').style.display = 'none';
+    document.getElementById('message').style.display = 'block';
+})
