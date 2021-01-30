@@ -94,14 +94,26 @@ nav ul li a:hover, a.active{
     align-items: center;
 }
 .inp-width{
-    min-width: 300px;
+    min-width: 260px;
 }
-.plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
-    padding: 2px;
-    margin: 10px 5px 0px 0px;
-    word-spacing: 20px;
+.plus-minus-btn button{
+    width: 30px;
+    font-size: 20px;
+    margin-top: 14px;
+    border: 2px solid rgb(0, 138, 252);
+    background-color: rgb(0, 138, 252);
+    color: white;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+
+.plus-minus-btn button:hover{
+    background-color: white;
+    color: rgb(0, 138, 252);
+}
+
+.plus-minus-btn button:focus{
+    outline: none;
 }
 .booking-form .inputs{
     display: grid;
